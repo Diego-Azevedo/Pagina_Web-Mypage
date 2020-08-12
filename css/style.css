@@ -250,6 +250,7 @@ h2 {
 
 .footer div {
   flex-wrap: wrap;
+  min-width: 300px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
