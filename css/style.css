@@ -73,7 +73,9 @@ h2 {
   text-align: justify;
   color: black;
 }
-
+.p2 {
+  text-align: center;
+}
 /** HEADER **/
 .header {
   background: #000000;
@@ -123,8 +125,8 @@ h2 {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .displayed div {
@@ -192,14 +194,14 @@ h2 {
 
 .displayed4 {
   display: flex;
-  min-height: 200px;
+  min-height: 100px;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
   align-items: center; /** alinhamento do item da direita com itens da esquerda **/
 }
 .displayed4 div {
-  max-width: 340px;
+  max-width: 200px;
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -257,7 +259,7 @@ h2 {
 }
 
 .imglink {
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .p12 {
