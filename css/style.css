@@ -2,12 +2,17 @@ body,
 ul,
 li,
 ul,
+hr,
 p {
   margin: 0px;
   padding: 0px;
   list-style: none; /** retira marcador de lista **/
   font-size: 18px;
   font-family: "Abel", sans-serif;
+}
+
+hr {
+  border-color: #080808f1;
 }
 
 a {
@@ -20,7 +25,7 @@ a {
 h1 {
   text-align: center;
   font-weight: normal;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-top: 0px;
   padding: 0px;
 }
@@ -28,9 +33,10 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: normal;
-  margin-top: 10px;
+  margin-top: 0px;
+
   margin-bottom: 10px;
-  padding: 0px;
+  padding: 20px;
 }
 
 .h2branco {
@@ -38,6 +44,7 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: white;
+  margin: 0px;
 }
 
 .h2preto {
@@ -126,6 +133,7 @@ h2 {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px 10px 0px 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -155,6 +163,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+
   align-items: center;
 }
 
@@ -162,6 +171,7 @@ h2 {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .conteiner3 {
@@ -206,7 +216,7 @@ h2 {
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -253,12 +263,23 @@ h2 {
 .conteiner6 {
   min-height: 150px;
   background-color: black;
-}
-
-.imglink {
-  max-width: 50%;
+  border: 20px;
 }
 
 .p12 {
   font-size: 12px;
+  margin-bottom: 0px;
+}
+
+/********************* ANIMACOES *************************/
+
+[data-anime] {
+  opacity: 0; /**item invisivel **/
+  transform: translate3d(0, -20px, 0); /** -20px para vir de cima **/
+}
+
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
