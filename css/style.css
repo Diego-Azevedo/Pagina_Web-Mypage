@@ -1,0 +1,264 @@
+body,
+ul,
+li,
+ul,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /** retira marcador de lista **/
+  font-size: 18px;
+  font-family: "Abel", sans-serif;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.h2branco {
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+}
+
+.h2preto {
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  margin-top: 0px;
+}
+
+.div2 {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #003e67;
+}
+
+.divborder {
+  border: 2px solid #c6e2e7;
+  border-radius: 10%;
+}
+
+.pbranco {
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.pcor {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: black;
+}
+
+/** HEADER **/
+.header {
+  background: #000000;
+  display: flex;
+  flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
+  justify-content: space-between; /** ajuste do espaco entre os itens do header **/
+  align-items: center; /** alinhamento do item da direita com itens da esquerda **/
+  padding: 15px; /** preenchimento **/
+}
+
+.header p {
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+  margin-right: 20px;
+}
+
+.menu li {
+  margin-left: 15px;
+}
+
+.menu li a {
+  display: block;
+  padding: 2px;
+}
+
+.ba {
+  text-decoration: none;
+  color: white;
+}
+
+/** Section 1 **/
+
+.displayed {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
+  align-items: center; /** alinhamento do item da direita com itens da esquerda **/
+  background-color: #c6e2e7;
+}
+
+.displayed img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.displayed div {
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/** Section 2 **/
+
+.displayed2 {
+  display: flex;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
+  align-items: center; /** alinhamento do item da direita com itens da esquerda **/
+  background-color: #1a96e2;
+}
+
+.displayed2 div {
+  max-width: 380px;
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.displayed2 img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteiner3 {
+  min-height: 200px;
+  background-color: #003e67;
+}
+
+.conteiner3 h1 {
+  padding: 0;
+  color: white;
+}
+
+.displayed3 {
+  display: flex;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
+  align-items: center; /** alinhamento do item da direita com itens da esquerda **/
+  background-color: #003e67;
+}
+.displayed3 div {
+  max-width: 340px;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.displayed4 {
+  display: flex;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
+  align-items: center; /** alinhamento do item da direita com itens da esquerda **/
+}
+.displayed4 div {
+  max-width: 340px;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.conteiner4 {
+  min-height: 300px;
+  background-color: #c6e2e7;
+}
+
+.conteiner4 img {
+  max-width: 70%;
+}
+
+.displayed5 {
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
+  align-items: center; /** alinhamento do item da direita com itens da esquerda **/
+}
+
+.displayed5 p {
+  text-align: center;
+}
+
+.conteiner5 {
+  min-height: 150px;
+  background-color: #1a96e2;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.footer div {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.footer img {
+  padding: 10px;
+  margin: 20px;
+}
+
+.conteiner6 {
+  min-height: 150px;
+  background-color: black;
+}
+
+.imglink {
+  max-width: 40%;
+}
+
+.p12 {
+  font-size: 12px;
+}
