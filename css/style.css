@@ -28,15 +28,15 @@ h1 {
   margin-bottom: 0px;
   margin-top: 0px;
   padding: 0px;
+  line-height: 100%;
 }
 
 h2 {
   font-size: 36px;
   font-weight: normal;
   margin-top: 0px;
-
-  margin-bottom: 10px;
-  padding: 20px;
+  margin-bottom: 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 #check {
@@ -147,7 +147,7 @@ h2 {
   flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
   justify-content: space-between; /** ajuste do espaco entre os itens do header **/
   align-items: center; /** alinhamento do item da direita com itens da esquerda **/
-  padding: 15px; /** preenchimento **/
+  padding: 10px 15px 10px 15px; /** preenchimento **/
 }
 
 .header p {
@@ -218,7 +218,6 @@ h2 {
   font-size: 36px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
 
   align-items: center;
 }
@@ -242,7 +241,7 @@ h2 {
 
 .displayed3 {
   display: flex;
-  min-height: 200px;
+
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap; /** Quando tela pequena ele manda itens da esquerda para baixo do item da direita **/
@@ -272,7 +271,7 @@ h2 {
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   text-align: center;
 }
 
