@@ -39,6 +39,62 @@ h2 {
   padding: 20px;
 }
 
+#check {
+  display: none;
+}
+#icone {
+  cursor: pointer;
+
+  z-index: 1;
+}
+.barra {
+  background-color: #1b1b1b69;
+  height: 75px;
+  width: 100px;
+  position: absolute;
+  transition: all 0.5s linear;
+  right: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+.nav1 {
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  text-align: center;
+}
+
+.nav1 a {
+  text-decoration: none;
+}
+
+.link {
+  padding: 10px;
+
+  font-size: 14px;
+  transition: all 0.5s linear;
+  color: black;
+  border-bottom: 2px solid #222;
+  opacity: 0;
+  margin-bottom: 200px;
+}
+
+.link:hover {
+  background-color: #1a96e2;
+}
+
+#check:checked ~ .barra {
+  opacity: 1;
+}
+
+#check:checked ~ .barra nav a .link {
+  opacity: 1;
+  margin-bottom: 0;
+
+  transition-delay: 0.2s;
+}
+
 .h2branco {
   font-size: 36px;
   text-align: center;
